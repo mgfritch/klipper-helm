@@ -11,3 +11,7 @@
 # golang.org/x/text: CVE-2026-56852 (infinite loop on invalid input).
 # Drop once upstream Helm requires golang.org/x/text >= v0.39.0.
 -replace golang.org/x/text=golang.org/x/text@v0.39.0
+
+# oras.land/oras-go/v2: CVE-2026-48978 (LOW).
+# Drop once upstream Helm requires oras.land/oras-go/v2 >= v2.6.1.
+-replace oras.land/oras-go/v2=oras.land/oras-go/v2@v2.6.1
